@@ -2,13 +2,13 @@ const axios = require('axios');
 const fs = require('fs');
 
 const sourceStore = {
-    url: 'https://api.bigcommerce.com/stores/ml8m0dw2le/v3/catalog',
-    token: 'nvy2q65q8n8qqqsj31kukzjrq5t5ok1',
+    url: ,
+    token: ,
 };
 
 const targetStore = {
-    url: 'https://api.bigcommerce.com/stores/72659iqkvs/v3/catalog',
-    token: 'lyruypypoz77asfbnbvjlz3nu04wpl1',
+    url: ,
+    token: ,
 };
 
 async function getProductsFromSource() {
